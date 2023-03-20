@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Open+sans);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display);
+
+html, 
+body {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  font-family: 'Open Sans', Arial, sans-serif;
+  min-width: 230px;
+  max-width: 400px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 14px;
+  box-shadow: none;
+}
+
+.profile * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.profile .profile-image {
+  display: inline-block;
+  width: 70%;
+  z-index: 1;
+  position: relative;
+  padding: 10px;
+  border: 2px solid #7bb4f4;
+}
+
+.profile .profile-image img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.profile figcaption {
+  width: 100%;
+  background-color: #F2F2F2;
+  color: #555;
+  padding: 125px 25px 25px;
+  margin-top: -100px;
+  display: inline-block;
+}
+
+.profile h3,
+.profile h4,
+.profile p {
+  margin: 0 0 5px;
+}
+
+.profile h3 {
+  font-weight: 600;
+  font-size: 1.5em;
+  font-family: 'Playfair Display', Arial, sans-serif;
+}
+
+.profile h4 {
+  color: #8c8c8c;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.profile p {
+  font-size: 0.8em;
+  letter-spacing: 0px;
+  opacity: 0.9;
+}
+
+.profile .icons {
+  text-align: center;
+  width: 100%;
+}
+
+.profile i {
+  padding: 10px 7px;
+  display: inline-block;
+  font-size: 27px;
+  font-weight: normal;
+  color: #7bb4f4;
+  opacity: 0.75;
+}
+
+.profile i:hover {
+  opacity: 1;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
